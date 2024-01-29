@@ -14,3 +14,7 @@ Template of an `hello world` API written in Go using Gin framework. For use as a
 - `go.mod`: contains the dependencies of the project
 - `go.sum`: contains the checksums of the dependencies
 - `Dockerfile`: contains the instructions to build the docker image
+
+## Repositories made with this
+
+- [`workshop-docker-multistage-builds`](https://github.com/xkrishguptaa/workshop-docker-multistage-builds)
