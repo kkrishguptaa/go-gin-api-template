@@ -157,7 +157,7 @@ jobs:
           CROSS_BUILD=true APP_NAME=${{ env.APP_NAME }} VERSION=${{ needs.changelog.outputs.version }} ./scripts/build.sh
 
       - name: Create Release
-        uses: softprops/action-gh-release@b25b93d384199fc0fc8c2e126b2d937a0cbeb2ae # v2
+        uses: softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe # v2
         with:
           token: ${{ secrets.GH_OWNER_TOKEN }}
           tag_name: ${{ needs.changelog.outputs.tag }}
